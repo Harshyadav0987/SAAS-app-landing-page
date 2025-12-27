@@ -25,11 +25,11 @@ function Services() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-12">
         <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16">
           <div className="inline-flex items-center gap-2 mb-4">
-            <div className="h-px w-8 bg-blue-600" />
+            <div className="h-px w-8 bg-black" />
             <span className="text-xs tracking-[0.3em] text-gray-600 font-medium uppercase">
               Our Services
             </span>
-            <div className="h-px w-8 bg-blue-600" />
+            <div className="h-px w-8 bg-black" />
           </div>
           
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-light text-gray-900 mb-4">
