@@ -4,29 +4,14 @@ import { Zap, Database, Shield, BarChart, Cloud, Users } from 'lucide-react';
 function Services() {
   const services = [
     {
-      icon: <Zap className="w-8 h-8" />,
-      title: "Lightning Fast Performance",
-      description: "Experience blazing-fast load times and seamless interactions with our optimized infrastructure built for scale."
-    },
-    {
       icon: <Database className="w-8 h-8" />,
       title: "Smart Data Analytics",
       description: "Transform raw data into actionable insights with our advanced analytics engine and real-time reporting."
     },
     {
-      icon: <Shield className="w-8 h-8" />,
-      title: "Enterprise Security",
-      description: "Bank-level encryption and compliance standards to keep your data safe and secure at all times."
-    },
-    {
       icon: <BarChart className="w-8 h-8" />,
       title: "Growth Tracking",
       description: "Monitor your business metrics in real-time with customizable dashboards and intelligent forecasting."
-    },
-    {
-      icon: <Cloud className="w-8 h-8" />,
-      title: "Cloud Integration",
-      description: "Seamlessly connect with your favorite tools and services through our robust API ecosystem."
     },
     {
       icon: <Users className="w-8 h-8" />,
@@ -65,9 +50,12 @@ function Services() {
               key={index}
               className="group p-8 rounded-2xl bg-gradient-to-br from-gray-50 to-white border border-gray-200 hover:border-black hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
             >
-              <div className="w-16 h-16 mb-6 rounded-xl bg-black flex items-center justify-center text-white group-hover:scale-110 transition-transform duration-300">
-                {service.icon}
+              <div className='flex items-center justify-center'>
+                 <div className="w-16 h-16 mb-6 rounded-xl bg-black flex items-center justify-center text-white group-hover:scale-110 transition-transform duration-300">
+                  {service.icon}
+                </div>
               </div>
+ 
               
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
                 {service.title}

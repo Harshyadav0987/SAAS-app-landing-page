@@ -25,7 +25,7 @@ function Reviews() {
 
   return (
     <section className="py-8 md:py-10 bg-white">
-      <div className="container mx-4 px-4 sm:px-6 lg:px-2">
+      <div className="container  px-4 sm:px-6 lg:px-2">
         <div className="text-center max-w-2xl mx-auto mb-12">
           <h2 className="text-3xl md:text-4xl font-light text-gray-900 mb-3">
             What people are saying
