@@ -3,10 +3,8 @@ import hero from '/Hero.png'
 function Hero() {
   return (
     <div className="relative bg-gradient-to-br from-gray-50 to-gray-100">
-      {/* Mobile and Tablet Layout */}
       <div className="lg:hidden">
         <div className="container mx-auto px-4 sm:px-6 py-16 sm:py-24">
-          {/* Content Section - Mobile - Centered */}
           <div className="space-y-6 text-center flex flex-col items-center">
             <div className="space-y-3">
               <div className="flex items-center gap-2 justify-center">
@@ -40,10 +38,8 @@ function Hero() {
         </div>
       </div>
 
-      {/* Desktop Layout */}
       <div className="hidden lg:flex relative h-[65vh] items-center justify-center overflow-hidden">
         <div className="container mx-auto px-15">
-          {/* Centered content */}
           <div className="max-w-3xl mx-auto space-y-8 text-center flex flex-col items-center">
             <div className="space-y-4">
               <div className="flex items-center gap-3 justify-center">

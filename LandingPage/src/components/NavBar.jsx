@@ -7,19 +7,15 @@ function NavBar() {
 
   return (
     <div className="bg-gray-100 px-4 md:px-8 py-4">
-      {/* Navbar with pill shape */}
       <nav className="max-w-6xl mx-auto bg-white rounded-full shadow-lg px-6 md:px-8 py-3 md:py-4 border border-gray-200">
         <div className="flex justify-between items-center">
-          {/* Logo */}
           <Logo />
           
-          {/* Desktop Nav Links */}
           <div className="hidden md:flex items-center gap-8">
             <a href="#pricing" className="text-gray-700 hover:text-black font-medium transition-colors">
               Pricing
             </a>
             
-            {/* Buttons */}
             <div className="flex items-center gap-4">
               <a href="#signin" className="text-gray-700 hover:text-black font-medium transition-colors">
                 Sign in

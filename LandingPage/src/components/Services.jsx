@@ -36,9 +36,8 @@ function Services() {
   ];
 
   return (
-    <section className="py-16 md:py-24 bg-white">
+    <section className="py-8 md:py-12 bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-12">
-        {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16">
           <div className="inline-flex items-center gap-2 mb-4">
             <div className="h-px w-8 bg-blue-600" />
@@ -60,24 +59,20 @@ function Services() {
           </p>
         </div>
 
-        {/* Services Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
           {services.map((service, index) => (
             <div 
               key={index}
               className="group p-8 rounded-2xl bg-gradient-to-br from-gray-50 to-white border border-gray-200 hover:border-black hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
             >
-              {/* Icon */}
               <div className="w-16 h-16 mb-6 rounded-xl bg-black flex items-center justify-center text-white group-hover:scale-110 transition-transform duration-300">
                 {service.icon}
               </div>
               
-              {/* Title */}
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
                 {service.title}
               </h3>
               
-              {/* Description */}
               <p className="text-gray-600 leading-relaxed">
                 {service.description}
               </p>
@@ -85,7 +80,6 @@ function Services() {
           ))}
         </div>
 
-        {/* CTA */}
         <div className="text-center mt-12 md:mt-16">
           <a 
             href="#contact" 
